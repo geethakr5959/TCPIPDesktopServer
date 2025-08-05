@@ -13,3 +13,7 @@ The client needs the server's IP address and the port number it is listening on 
 
 **Threading:** <br>
 Network operations, especially blocking ones like waiting for a connection (server.accept()) or reading from a stream, must not be performed on the main UI thread. This is why we use Kotlin Coroutines to manage these tasks in the background.
+
+<br> <br>
+**Screenshot:** <br>
+<img width="1182" height="891" alt="image" src="https://github.com/user-attachments/assets/6b921073-9dbb-482d-b76a-b4345a50a719" />
